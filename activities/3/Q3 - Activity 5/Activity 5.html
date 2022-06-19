@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+   .con{   
+    padding: 3px;
+    width: 200px;
+    height: 200px;
+    border: 10px solid;
+    border-radius:10%;
+    margin: 10px;
+     
+  }
+   .div0{
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color:black;
+    border-radius:50%;
+    margin:14px
+  }
+  
+    .wrapper1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+   .wrapper2{
+   display: flex;
+   justify-content :space-between;
+  }
+        
+  .wrapper2 .div0:nth-of-type(1) {
+   align-self: flex-end;
+  }
+  
+   .wrapper3{
+    display: flex;
+   justify-content :space-between;
+  }
+   .wrapper3 .div0:nth-of-type(2) {
+   align-self: center;
+ } 
+  
+  .wrapper3 .div0:nth-of-type(1) {
+   align-self: flex-end;
+  }
+   wrapper4, .wrapper6 {
+   display: flex;
+   justify-content: space-between;
+  }
+  
+  .wrapper4 .col, wrapper6 .col {
+  display: flex;
+  flex-direction: col;
+  justify-content :space-between;
+  
+  }
+   wrapper5 {
+   display: flex;
+   justify-content: space-between;
+    
+  }
+  .wrapper5 .col {
+  display: flex;
+  flex-direction: col;
+  justify-content: space-between;
+  }
+  
+  .wrapper5 .col:nth-of-type(2) {
+   justify-content: center;
+  }
+
+  
+ body { 
+   display: flex;
+   float:left;
+</style>
+<title> DICE ACTIVITY (CSS BOX MODEL)</title>
+</head>
+<body>
+
+
+<!-- 6th side -->
+<!-- border section -->
+<div class="wrapper6 con">
+
+  <div class="col">
+<!-- first small circle -->
+<span class="div0"> </span>
+<!-- second small circle -->
+<span class="div0"> </span>
+
+<!-- third small circle -->
+<span class="div0"> </span>
+  </div>
+  
+  <div class="col">
+<!-- fourth small circle -->
+<span class="div0"> </span>
+<!-- fifth small circle -->
+<span class="div0"> </span>
+<!-- sixth small circle -->
+<span class="div0"> </span>
+  </div>
+</div>
+
+
+
+<!-- 5th side -->
+<!-- border section -->
+<div class="wrapper5 con">
+  
+  <div class="col">
+<!-- first small circle -->
+<span class="div0"> </span>
+<!-- third small circle -->
+<span class="div0"> </span>
+  </div>
+  
+  <div class="col">
+<!-- fourth small circle -->
+<span class="div0"> </span>
+  </div>
+  
+  <div class="col">
+<!-- fifth small circle -->
+<span class="div0"> </span>
+<!-- sixth small circle -->
+<span class="div0"> </span>
+</div>
+</div>
+
+
+
+<!-- 4th side -->
+<!-- border section -->
+<div class="wrapper4 con">
+  
+<div class="col">
+<!-- first small circle -->
+<span class="div0"> </span>
+
+<!-- third small circle -->
+<span class="div0"> </span>
+  </div>
+  
+<div class="col">
+<!-- fourth small circle -->
+<span class="div0"> </span>
+
+<!-- sixth small circle -->
+<span class="div0"> </span>
+</div>
+</div>
+
+
+
+<!-- 3rd side -->
+<!-- border section -->
+<div class="con wrapper3">
+
+<!-- third small circle -->
+<span class="div0"> </span>
+
+<!-- fourth small circle -->
+<span class="div0"> </span>
+
+<!-- fifth small circle -->
+<span class="div0"> </span>
+  
+</div>
+
+
+
+<!-- 2nd side -->
+<!-- border section -->
+<div class="con wrapper2">
+
+<!-- third small circle -->
+<span class="div0"> </span>
+<!-- fourth small circle -->
+<span class="div0"> </span>
+
+</div>
+
+
+
+<!-- 1st side -->
+<!-- border section -->
+<div class="con wrapper1">
+<!-- fifth small circle -->
+<span class="div0"> </span>
+  
+</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Mini Resume</title>
+</head>
+
+<body style="text-align:center;">
+
+<!--the profile -->
+
+<img src="Zhyla.jpg" alt="Zhyla.png" width="200"height="200">
+</img>
+<h1>Zhyla Ainz E. Montero</h1>
+<h2><strong>Student-RTPM DSHS</strong></h2>
+<hr>
+
+<!--the bio-->
+
+<img src="fb.png" width="70" height="70"></img>
+<a href="https://www.facebook.com/zhylaainzamontero"target="_blank">Facebook Profile</a>
+
+<img src="gmail.png"width="70"height="70">zhylaainz@gmail.com</img>
+
+<img src="call.png"width="70"height="70">09673857806</img>
+
+<p style="text-align:left;"><b>Name:</b> Zhyla Ainz Montero<br> <br>
+<b>School:</b> RTPM - Dumaguete Science High School<br> <br>
+<b>Grade Level & Section:</b> Grade 8 - Einstein<br> <br>
+<b>Subject:</b> ICT 8-HTML & CSS<br> <br>
+<b>Career Objectives:</b> <i>I want to be a Nurse someday<i>
+
+</body>
+</html>
